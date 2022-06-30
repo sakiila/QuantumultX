@@ -6,6 +6,6 @@ let key = '"显示时间":"2022-07-01 04:36"'
 //     obj.data = key;
 // }
 
-obj['显示时间'] = '2022-07-01 04:36';
+obj.data.records.显示时间 = "2022-07-01 07:01";
 
 $done({body: JSON.stringify(obj)});
